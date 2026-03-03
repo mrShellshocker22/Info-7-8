@@ -10,8 +10,14 @@
                 <img src="https://aaroncalahorra-computerlab.notion.site/image/attachment%3A1e4e3ffc-aecc-4524-aeb4-9df0fefe6cf5%3Aimage.png?table=block&id=3175b127-bb52-8047-b166-e0a4ec3ba135&spaceId=c4b8832f-7e93-4972-ba52-2bd9f7b273cf&width=1290&userId=&cache=v2" height="300">
                 <p>Visit <a href="https://www.churchofjesuschrist.org/youth/childrenandyouth/fsy/?lang=eng"target="_blank">FSY's registration Official Website.</a></p>
         <form>
-            <label for="Mission">What is your Mission?: </label>
-            <input type="text" name="Mission"  required>
+            <h1>Register fot your FSY</h1>
+            <label for="Mission">What is your Mission?:</label>
+            <select name="Mission">
+            <option value="Colonia Dublan Mexico Stake">Colonia Dublan Mexico Stake</option>
+            <option value="Chihuahua">Chihuahua</option>
+            <option value="Ciudad Juárez México East Stake">Ciudad Juárez México East Stake</option>
+            <option value="Colonia Juárez México Stake ">Colonia Juárez México Stake </option>
+            </select>
             <br>
             <label for="Stake">What is your Stake?: </label>
             <input type="text" name="Stake"  required>
@@ -24,7 +30,10 @@
             <input type="radio" name="Allergies"  value="No"><span>No</span>
             <br>
             <label for="AllergiesEsp">Which ones?: </label>
-            <input type="text" name="AllergiesEsp"  required>
+            <input type="text" name="AllergiesEsp">
+            <br>
+            <label for="Age">How old are you?: </label>
+            <input type="number" name="Age" min="1" max="100">
             <br>
             <label for="firstname">First name: </label>
             <input type="text" name="firstname"  required>
