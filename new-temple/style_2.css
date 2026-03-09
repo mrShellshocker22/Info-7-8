@@ -1,0 +1,19 @@
+h1{
+    text-transform:uppercase;
+    color:sans-serif;
+}
+/*ID Selector*/
+#status{
+    font-family:sans-serif;
+}
+img{
+    width:500px;
+}
+
+
+/*Class Selector*/
+.standout-box{
+    background-color: whitesnoke;
+    border-radius: 1rem;
+    padding: 1rem;
+}
