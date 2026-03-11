@@ -1,6 +1,13 @@
+/*universal selector*/
+*{
+    color:#282828; /*dark gray*/
+}
+
+/*ELEment selector*/
 h1{
     text-transform:uppercase;
-    color:sans-serif;
+    color:saddlebrown;
+
 }
 /*ID Selector*/
 #status{
@@ -16,4 +23,11 @@ img{
     background-color: whitesmoke;
     border-radius: 1rem;
     padding: 1rem;
+}
+
+.subtitle{
+    text-trensform:uppercase;
+    color:saddlebrown;
+    font-size:1.2rem;
+
 }
