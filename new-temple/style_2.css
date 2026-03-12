@@ -1,22 +1,23 @@
 /*universal selector*/
 *{
     color:#282828; /*dark gray*/
+    font-familya:sans-serif;
 }
 
 /*ELEment selector*/
 h1{
     text-transform:uppercase;
     color:saddlebrown;
-
 }
 /*ID Selector*/
 #status{
     font-family:sans-serif;
+    color:saddlebrown;
 }
+
 img{
     width:500px;
 }
-
 
 /*Class Selector*/
 .standout-box{
@@ -29,5 +30,34 @@ img{
     text-trensform:uppercase;
     color:saddlebrown;
     font-size:1.2rem;
+    font-weight:bold;
+}
 
+/*Group Selector*/
+h1, .subtitle{
+    font-family.serif;
+}
+/*Pseudo class selector*/
+a{
+    text-decoration: none;
+    color: rgb(163, 157, 11)
+}
+
+/* */
+a:hover{
+    text-decoration :underline;
+}
+main{
+    width: 600px;
+    margin: auto;
+}
+
+#anouncement{
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+
+.little-letters{
+    color:grey;
+    font-size: .8rem;
 }
