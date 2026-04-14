@@ -38,16 +38,17 @@ header{
 
 .box{
     text-align: center;
+    height: 400px;
+    width: 400px;
+    padding: 5rem;
+    background-color: whitesmoke;
+
 }
 
 #footer{
-top:12;
-justify-content: bottom;
-padding: 1rem;
+    text-align:center;
+    top:12;
+    justify-content: bottom;
+    padding: 1rem;
 }
-p{
-    text-align: center;
-    font-size: 40px;
 
-
-}
