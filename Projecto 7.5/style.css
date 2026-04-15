@@ -27,9 +27,6 @@ header{
 
 }
 
-
-
-
 #spacearound {
     padding: 1rem;
     display:flex;
@@ -38,7 +35,6 @@ header{
 
 .box{
     text-align: center;
-    height: 400px;
     width: 400px;
     padding: 5rem;
     background-color: whitesmoke;
@@ -50,5 +46,18 @@ header{
     top:12;
     justify-content: bottom;
     padding: 1rem;
+}
+
+.box-image {
+    height:350px;
+    width:350px;
+    object-fit:cover;
+}
+
+.hero-section{
+    height:500px;
+    width:100%;
+    justify-content:center;
+    object-fit:cover;
 }
 
