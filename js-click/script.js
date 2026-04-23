@@ -1,6 +1,8 @@
 let i = 0;
 
-function count(){
-    i++;
-    control.log("Number of Clicks: " + i);
+function showClicks(){
+    let numClick = i++;
+    let header = document.querySelector("button");
+
+    header.innerHTML = i;
 }
