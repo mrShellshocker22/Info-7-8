@@ -1,0 +1,25 @@
+.column{
+    width: 800px;
+    background-color: #D4D4D8;
+    height:100%;
+    margin: auto;
+
+}
+
+header {
+    high: 200px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.center{
+    display:flex;
+    justify-content:center;
+    gap:16px;
+}
+
+button{
+    font-size: 16px;
+    padding: 16px;
+    background-color: #FFC9C9;
+}

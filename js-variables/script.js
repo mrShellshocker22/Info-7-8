@@ -10,22 +10,19 @@ console.log(Name + " " + favoriteColor + " " + Location + " " + Mood )
 function function2(){
 let companyName = "Dell inc";
 let foundingYear = "1984";
-let isActive = "yes";
+let isActive = "true";
 let fundingAmount = "33.4 Billion Bucks";
 
 console.log(companyName + " " + foundingYear + " " + isActive + " " + fundingAmount )
 }
 
 function function3(){
+let number = 4;
+    number = number * 2;
+    number = number + 10;
+    number = number / 2;
+    number = number - 4;
 
-let doubleIt = 
-
-function addNumbers(num1, num2){
-
-    - Double it.
-- Add 10.
-- Divide by two.
-- Subtract the number you started with.
-
+alert("The result of the operations is: "+number);
 }
 
