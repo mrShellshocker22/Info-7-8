@@ -17,8 +17,11 @@ console.log(companyName + " " + foundingYear + " " + isActive + " " + fundingAmo
 }
 
 function function3(){
-    
-let doubleIt =
+
+let doubleIt = 
+
+function addNumbers(num1, num2){
+
     - Double it.
 - Add 10.
 - Divide by two.
