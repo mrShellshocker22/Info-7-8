@@ -1,13 +1,19 @@
 
 
-
 function coinFlip(){
-    return Math.random();
-let coinNumber = console.log(getRandomInt(2));
 
 
+    let coinNumber = Math.random()
+    let body = document.querySelector("h1")
 
+    if (coinNumber > 0.5){
+        body.innerHTML = "Heads"
+    }
 
-}
+    if (coinNumber < 0.5){
+        body.innerHTML = "Tails"
+    }
+    
+    console.log(coinNumber)
 }
 
