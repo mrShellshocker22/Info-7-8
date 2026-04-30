@@ -1,0 +1,20 @@
+body {
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 64px;
+
+}
+
+button {
+    height: 32px;
+    background-color: whitesmoke;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
