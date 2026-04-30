@@ -6,8 +6,20 @@ h1 {
 
 button {
     height: 32px;
+
+    width: 64px;
 }
 
-body {
+body{
+    text-align: center;
+    height: 40000px;
+
+}
+
+.column{
+    width: 800px;
+    background-color: #D4D4D8;
+    height:100%;
+    margin: auto;
 
 }

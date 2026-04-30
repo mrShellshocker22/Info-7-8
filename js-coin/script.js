@@ -1,19 +1,28 @@
 
+function coin(user){
+    let num = Math.random();
+    console.log(num);
 
-function coinFlip(){
+    let title = document.querySelector("h2")
+    let computer;
 
-
-    let coinNumber = Math.random()
-    let body = document.querySelector("h1")
-
-    if (coinNumber > 0.5){
-        body.innerHTML = "Heads"
+    if (num > 0.5) {
+        title.innerHTML = "Heads";
+        computer = "Heads";
     }
 
-    if (coinNumber < 0.5){
-        body.innerHTML = "Tails"
+    else {
+        title.innerHTML = "Tails";
+        computer = "Tails";
     }
-    
-    console.log(coinNumber)
+
+    let result = document.querySelector("h3");
+
+    if (computer == user) {
+        result.innerHTML = "You Won";
+    }
+
+    else {
+        result.innerHTML = "You Lost"
+    }
 }
-
