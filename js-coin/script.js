@@ -15,14 +15,21 @@ function coin(user){
         title.innerHTML = "Tails";
         computer = "Tails";
     }
-
+    /*
     let result = document.querySelector("h3");
 
     if (computer == user) {
         result.innerHTML = "You Won";
-    }
+        i++; // i = i + 1
+         let result = document.querySelector("h4");
+    }* */
+
+
 
     else {
         result.innerHTML = "You Lost"
     }
+
 }
+
+
