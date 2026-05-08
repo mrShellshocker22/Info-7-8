@@ -11,11 +11,9 @@ document.addEventListener("DOMContentLoaded", function(){
         let hour = now.getHours();
         if (hour < 12){
             document.querySelector("#time").innerHTML = "☀️ Good morning!";
-        }
-        else if (hour < 18){
+        }   else if (hour < 18){
             document.querySelector("#time").innerHTML = "🌄 Good afternoon!";
-        }
-        else {
+        }   else {
             document.querySelector("#time").innerHTML = "🌙 Good night!";
         }
 
@@ -23,6 +21,10 @@ document.addEventListener("DOMContentLoaded", function(){
 
         if (day == 0){
             document.querySelector("#day").innerHTML = "Today is Sunday!";
+        }   else if (day == 1){
+            document.querySelector("#day").innerHTML = "Today is Monday!";
+        }   else if (day == 2){
+            document.querySelector("#day").innerHTML = "Today is Monday!";
         }
 
 

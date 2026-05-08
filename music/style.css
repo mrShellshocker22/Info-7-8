@@ -1,0 +1,25 @@
+.instrument {
+    background-color:whitesmoke;
+    width: 128px;
+    text-align: center;
+}
+
+.active{
+    background-color:#FFD700;
+    color:white;
+}
+
+#box{
+    display:flex;
+    justify-content: space-around;
+    gap: 32px;
+    border: 3px;
+}
+
+body{
+    background-color: #5F9EA0;
+}
+
+h1{
+    text-align: center;
+}
