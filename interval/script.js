@@ -1,10 +1,16 @@
-        let counter = 12;
+        let counter = 15;
         const alarm = new Audio("alarm.mp3")
 
-        if ()
 
+function count(user) {
 
-function count() {
+    if(user == 1){
+        counter = 60;
+    }   else if (user == 5){
+        counter = 300;
+    }   else if (user == 10){
+        counter == 600;
+    }
 
     let minutes = Math.floor(counter/60);
     let seconds = counter % 60;
@@ -28,6 +34,11 @@ function count() {
 
 
 document.addEventListener('DOMContentLoaded', function() {
+
+    document.querySelector('m1').onclick = function(){count(1)};
+    document.querySelector('m5').onclick = function(){count(5)};
+    document.querySelector('m10').onclick = function(){count(10)};
+
     document.querySelector('button').onclick = function(){
     setInterval(count, 1000);
     document.querySelector("button").disabled = true;
